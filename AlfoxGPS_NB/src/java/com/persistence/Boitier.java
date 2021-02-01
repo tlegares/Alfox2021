@@ -1,5 +1,5 @@
 /*
- * Projet  : Alfox2020
+ * Projet  : AlfoxGPS
  * Fichier : Boitier.java
  * Description : Classe interface de la table Boitier
  * Cette table stocke les infos sur les Boitiers embarqués ds les véhicules

@@ -23,10 +23,10 @@ public class ConnexionMySQL {
     /** driverDst : MySQl driver  */
     private static String driver    = "com.mysql.cj.jdbc.Driver";
     /** url : ConnexionMySQL URL */
-    private static String url       = "jdbc:mysql://localhost:3306/alfox2020?zeroDateTimeBehavior=convertToNull";
+    private static String url       = "jdbc:mysql://localhost:3306/alfoxGPS?zeroDateTimeBehavior=convertToNull";
 // ---------------------------------------------------------------------
     /** userName : eventskytracker */
-    private static String userName  = "alfox2020";
+    private static String userName  = "alfoxGPS";
     /** password : estNovae31 */
     private static String password  = "alfox31";
     /** destination connection on the database */

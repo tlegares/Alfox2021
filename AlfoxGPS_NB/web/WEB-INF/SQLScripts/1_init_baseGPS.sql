@@ -1,7 +1,7 @@
 
-drop schema if exists alfox2020;
-create schema alfox2020;
-use alfox2020;
+drop schema if exists alfoxGPS;
+create schema alfoxGPS;
+use alfoxGPS;
 
 CREATE TABLE Responsable (
     ID int not null auto_increment, 
@@ -157,9 +157,9 @@ insert into DonneesTR ( Datation, Vitesse, VitesseMax, LatitudeGPS, LongitudeGPS
 #    crée les autorisation du user local pour l'accés du serveur à la BD
 # -----------------------------------------------------------------------
 
-use alfox2020;
+use alfoxGPS;
 
-drop user alfox2020@localhost;
-create user alfox2020@localhost identified by 'alfox31';
+drop user alfoxGPS@localhost;
+create user alfoxGPS@localhost identified by 'alfox31';
 
-grant all privileges on *.* to alfox2020@localhost with grant option;
+grant all privileges on *.* to alfoxGPS@localhost with grant option;

@@ -1,5 +1,5 @@
 /*
- * Projet  : Alfox2020
+ * Projet  : AlfoxGPS
  * Fichier : DonneesTR.java
  * Description : Classe interface de la table DonneesTR
  * Cette table stocke les données TR obtenues par message SIGFOX

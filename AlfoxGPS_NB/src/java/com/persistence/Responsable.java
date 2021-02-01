@@ -1,5 +1,5 @@
 /*
- * Projet  : Alfox 2020
+ * Projet  : Alfox GPS
  * Fichier : Responsable.java
  * Description : Classe interface de la table user
  * Cette table stocke les infos sur les utilisateurs connus du logiciel
