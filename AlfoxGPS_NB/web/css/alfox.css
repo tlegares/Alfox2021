@@ -1,0 +1,154 @@
+/* 
+    Created on : 2 Mars 2018
+    Author     : SNIR2
+*/
+#logoHeader {
+    position: fixed;
+    top : 4px; 
+    left: 50px;
+}
+
+/* ------- gestion du bouton de connexion -------- */
+#btnDeconnection{
+    position: absolute;
+    right: 1vw;
+    top: -1px;
+}
+
+#btnDeconnection img {
+    display: block;
+}
+
+#btnDeconnection #black {
+    display: none;
+}
+
+#btnDeconnection:hover #white {
+    display: none;
+}
+
+#btnDeconnection:hover #black {
+    display: block;
+}
+/* ---------------------------------------- */
+
+/* ------ btn deco pour localisation ------ */
+#btnDeconnectionLocalisation{
+    position: absolute;
+    right: 3vw;
+    top: -3px;
+}
+
+#btnDeconnectionLocalisation img {
+    display: flex;
+}
+
+#btnDeconnectionLocalisation:hover #white {
+    display: none;
+}
+
+#btnDeconnectionLocalisation #black {
+    display: none;
+}
+
+#btnDeconnectionLocalisation:hover #black {
+    display: block;
+}
+
+/* ------- page index : Logo central ------- */
+.logo img {
+    border-radius: 8px;
+    border-style:  solid;
+    border-width:  1px;
+    border-color:  #e76215;
+    width:  40%;
+    height: auto;
+}
+
+/* ----- navbar avec charte du site ALCIS ------ */
+.ui-navbar a {
+    background-color: #000 !important;
+    color: #fffefe !important;
+    border: 1px solid #AAAAAA !important;
+}
+
+/* couleur orange quand on passe sur la barre de navigation */
+.ui-navbar a:hover {
+    background-color: #e76215 !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+/* ---- page index : saisie 60% de l'écran en largeur ----- */
+#formLogin {
+    padding: 0px 20% 0px 20% !important;
+}
+
+/* --- param le panel de droite de sélection des voitures --- */
+#panelImmatriculation {
+    background-color: black;
+}
+
+/* ---- page localisation : map Google ------  */
+#map {
+   margin-top:34px;
+   width:100%;
+   height:82vh;
+}
+
+/* ------- pages acceuil : cartes de statistiques -------- */
+.card {
+    background-color: #fafafa;
+    text-align: right;
+    width: 300px;
+}
+
+.container {
+    color: black;
+    padding: 0px 15px 0px 5px;
+    border: solid 1px;
+
+}
+
+.cardTitre {
+    background-color: #e76215;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 15px 10px 10px;
+}
+
+.cardValeur {
+    font-size: 40px;
+}
+
+.cardUnite {
+    font-size: 24px;
+}
+
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 40px;
+  width: 80%; /* largeur obligatoire pour être centré */
+  margin-bottom: 7vh;
+}
+
+/* ---------- pour les graphiques ----------- */
+.graph {
+    background-color: #ffffff;
+    text-align: right;
+    width: 300px;
+}
+
+.graphTitre {
+    background-color: #e76215;
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* les saisies ne prennent que 80% de l'écran en largeur */
+.form {
+    margin-top: 25px;
+    padding: 0px 20% 0px 20% !important;
+}

@@ -1,0 +1,21 @@
+<%-- 
+    Teste toutes les pages protégées pour savoir si l'accès est fait par
+    un utilisateur identifié. Sinon renvoie à l'accueil.
+--%>
+
+<%@page import="com.persistence.*"%>
+<%@page import="java.sql.Connection"%>
+<%@ page pageEncoding="UTF-8" %>
+
+<% 
+    Connection con = (Connection) session.getAttribute("con"); 
+    if (con == null) { 
+        con = ConnexionMySQL.getInstance(); 
+        session.setAttribute("con", con); 
+    }
+    Responsable user = (Responsable) session.getAttribute("user"); 
+    // on se protège d'un accès illicite à cette page
+    if (user == null) { 
+            request.getRequestDispatcher("index.jsp").forward(request, response); 
+    } 
+%>

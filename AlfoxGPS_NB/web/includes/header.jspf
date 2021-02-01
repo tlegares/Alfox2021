@@ -1,0 +1,14 @@
+<%-- header.jspf --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<div class="header" data-role="header" data-id="main-header" data-tap-toggle="false" 
+     data-theme="a" data-position="fixed" data-fullscreen="true">
+    <img id="logoHeader" src="images/alcisLogo.png"/><h1 id="titre">FLOTTE</h1>
+    <form id="btnDeconnection" method="post" action="index.jsp">
+        <input name="action" id="action" type="hidden" value="deconnexion"/>
+        <button type="submit" id="submitOK1" name="submitOK1">
+            <img id="white" src="css/themes/images/icons-png/power-white.png" >
+            <img id="black" src="css/themes/images/icons-png/power-black.png" >
+        </button>
+    </form>
+</div>

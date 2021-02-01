@@ -1,0 +1,7 @@
+{
+    "board": "arduino:samd:mkrfox1200",
+    "port": "/dev/tty.usbmodem14401",
+    "sketch": "Alfox2020/Alfox.ino",
+    "output": "../ArduinoOutput",
+    "programmer": "AVRISP mkII"
+}
